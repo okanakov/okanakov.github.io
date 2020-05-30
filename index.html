@@ -4,6 +4,16 @@
 <head>
 <meta charset="UTF-8" />
 <title>Канаков О.И. Учебные материалы</title>
+
+<script type="text/javascript">
+// скрипт "Скрыть-Показать"
+function look(type) {
+param=document.getElementById(type);
+if(param.style.display == "none") param.style.display = "block";
+else param.style.display = "none"
+}
+</script>
+
 </head>
 
 <body>
@@ -12,19 +22,21 @@
 
 Обратная связь: <a href="https://portal.unn.ru">Портал ННГУ</a>, электронная почта <a href="mailto:okanakov@rf.unn.ru?subject=Вопрос%20по%20учебным%20материалам">okanakov@rf.unn.ru</a>
 
-<p>Здесь представлены материалы в форме &laquo;живая доска&raquo; с синхронным голосовым комментарием. Объём трафика при просмотре одного ролика ~7&ndash;15 Мб (звук) плюс ~1&ndash;2 Мб (векторная анимация). Возможен просмотр в любом современном браузере (требуется JavaScript и AJAX) на любой платформе, включая мобильные. По основным ссылкам для звука используется кодек AAC; если звук не воспроизводится, попробуйте расположенные рядом ссылки <b>[другой аудиокодек]</b>, подгружающие звук в MP3. </p>
+<p>Здесь представлены материалы в форме &laquo;живая доска&raquo; с синхронным голосовым комментарием. Объём трафика при просмотре одного ролика как правило ~7&ndash;15 Мб (звук) плюс ~1&ndash;2 Мб (векторная анимация). Возможен просмотр в любом современном браузере (требуется JavaScript и AJAX) на любой платформе, включая мобильные. По основным ссылкам для звука используется кодек AAC; если звук не воспроизводится, попробуйте расположенные рядом ссылки <b>[другой аудиокодек]</b>, подгружающие звук в MP3. </p>
 
 <p>Использовано программное обеспечение <a href="https://people.cs.clemson.edu/~bcdean/lscribe/">LectureScribe</a>. Справка по управлению плеером &mdash; внизу этой страницы.</p>
 <p style="font-size: small; font-style: italic;">Использование ПО LectureScribe в целях преподавания <a href="https://people.cs.clemson.edu/~bcdean/lscribe/">разрешено</a> автором ПО.</p>
 
+<br>
+
+<a href="javascript:look('TheorMechLec');" title="Нажмите, чтобы показать/скрыть"><h2>Теоретическая механика (лекции)</h2></a>
+<div id="TheorMechLec" style="display: none;">
 <table border="1" bgcolor="e0ffdd">
-<tr><td>
-<h2>Теоретическая механика (лекции)</h2>
-</td></tr>
+
 <tr><td>
 <p><a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_OPsystems.lsv&audio=ClassMech_OPsystems.m4a">1. Обобщённо-потенциальные системы</a>&emsp;
 <a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_OPsystems.lsv&audio=ClassMech_OPsystems.mp3">[другой аудиокодек]</a></p>
-<p><i>Примечание.</i> На 7:00 &ndash; 7:30 я говорю о взаимно-однозначном соответствии между описанием электромагнитного поля на языке векторов E и B с одной стороны, и на языке скалярного и векторного потенциалов &mdash; с другой. На самом деле соответствие не является взаимно-однозначным: векторы E и B выражаются через потенциалы однозначно, но потенциалы, разумеется, НЕ определены однозначно при заданных E и B. По крайней мере, к скалярному потенциалу всегда можно добавить константу (о чём, надеюсь, все помнят), что является частным случаем более общего &laquo;калибровочного преобразования&raquo; потенциалов, которое будет рассмотрено в курсе электродинамики.</p>
+<p><i>Примечание.</i> На 7:00 &ndash; 7:30 я говорю о взаимно-однозначном соответствии между описанием электромагнитного поля на языке векторов E и B с одной стороны, и на языке скалярного и векторного потенциалов &mdash; с другой. На самом деле соответствие не является взаимно-однозначным: векторы E и B выражаются через потенциалы однозначно, но потенциалы, разумеется, НЕ определены однозначно при заданных E и B. По крайней мере, к скалярному потенциалу всегда можно добавить константу (о чём, надеюсь, все помнят), что является частным случаем более общего &laquo;калибровочного преобразования&laquo; потенциалов, которое будет рассмотрено в курсе электродинамики.</p>
 </td></tr>
 
 <tr><td>
@@ -46,17 +58,24 @@
 </td></tr>
 
 <tr><td>
-<p><a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4.lsv&audio=ClassMech_MalKoleb_lec4.m4a">5. Малые колебания. Часть 4: Уравнения движения и их общее решение</a>&emsp;
-<a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4.lsv&audio=ClassMech_MalKoleb_lec4.mp3">[другой аудиокодек]</a></p>
+<p><a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4-5.lsv&audio=ClassMech_MalKoleb_lec4-5.m4a">5. Малые колебания. Части 4-5: Уравнения движения и их общее решение. Нормальные колебания</a>&emsp;
+<a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4-5.lsv&audio=ClassMech_MalKoleb_lec4-5.mp3">[другой аудиокодек]</a></p>
+<p><font color="red"><b>ВНИМАНИЕ!</b></font> <b>Часть 5 &laquo;Нормальные колебания&raquo;</b> темы &laquo;Малые колебания&raquo; <b>добавлена</b> к ранее опубликованной <b>Части 4 &laquo;Уравнения движения и их общее решение&raquo;</b> из-за большого количества смысловых связей между разделами и большого объёма повторного использования материала, в результате чего обе части объединены в один ролик. Собственно часть 5 &laquo;Нормальные колебания&raquo;</b> внутри ролика начинается с отметки 72:20. Чтобы сократить размер аудиофайла объединённого ролика, битрейт в нём сокращён с обычных 32 кбит/с до 24 кбит/с, что привело к снижению качества звука, особенно заметному в кодеке MP3 (ссылка <a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4-5.lsv&audio=ClassMech_MalKoleb_lec4-5.mp3">[другой аудиокодек]</a>). Часть 4 в прежнем виде (32 кбит/с) доступна по 
+<a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4.lsv&audio=ClassMech_MalKoleb_lec4.m4a">ссылке 1 (звук в AAC)</a> и 
+<a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_MalKoleb_lec4.lsv&audio=ClassMech_MalKoleb_lec4.mp3">ссылке 2 (звук в MP3)</a>.
+</p>
+
+<p><i>Примечание.</i> На 116:40 говорю о системе уравнений, что её можно &laquo;решить относительно неизвестных &eta; относительно &xi;&raquo;, имея в виду &laquo;решить относительно неизвестных &eta;, выразив их тем самым через &xi;&raquo;.</p>
 </td></tr>
+
 </table>
+</div>
 
 <br>
 
+<a href="javascript:look('TheorMechPract');" title="Нажмите, чтобы показать/скрыть"><h2>Теоретическая механика (практика)</h2></a>
+<div id="TheorMechPract" style="display: none;">
 <table border="1" bgcolor="e0ffdd">
-<tr><td>
-<h2>Теоретическая механика (практика)</h2>
-</td></tr>
 
 <tr><td>
 <p><a href="https://okanakov.github.io/wlsviewer.html?video=ClassMech_Pract_MalKoleb1d.lsv&audio=ClassMech_Pract_MalKoleb1d.m4a">1. Малые колебания в системах с 1 степенью свободы (теоретическая часть)</a>&emsp;
@@ -85,13 +104,13 @@
 </td></tr>
 
 </table>
+</div>
 
 <br>
 
+<a href="javascript:look('TheorSynch');" title="Нажмите, чтобы показать/скрыть"><h2>Введение в теорию синхронизации</h2></a>
+<div id="TheorSynch" style="display: none;">
 <table border="1" bgcolor="e0ffdd">
-<tr><td>
-<h2>Введение в теорию синхронизации</h2>
-</td></tr>
 
 <tr><td>
 <p><a href="https://okanakov.github.io/wlsviewer.html?video=Synch_WeakStrong.lsv&audio=Synch_WeakStrong32.m4a">1. Режимы сильного и слабого сигнала</a>&emsp;
@@ -118,7 +137,9 @@
 </td></tr>
 
 </table>
+</div>
 
+<br>
 
 <h2>Краткая справка по использованию средства просмотра LectureScribe</h2>
 <ul>
